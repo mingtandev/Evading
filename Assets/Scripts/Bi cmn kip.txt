@@ -1,0 +1,102 @@
+
+transform.rotation -> Quaternion
+transform.euler -> Vector
+
+
+Unity look at X axis
+
+
+
+
+//-------------------RIGIBODY 2D---------------------
+ANGULAR DRAG : Luc can khi xoay (rotation) , neu khong ton tai -> infinity rotation
+- 2 loai van toc : velocity , van toc quay
+-- Dat trong fixed  update -> do vat ly khong theo kip update
+
+
+
+
+//___________________TUAN 2_________________________
+    //-------------------Coroutine-----------------------
+    Dung coroutine : - StopAllCoroutine
+                    - StopCouroutine(string);
+    - Alocate Waitforsecond , tranh call trong function
+    --Yield WWW khi su dung trong network
+    --WaitForSecond bi tac dong boi timeScale
+
+
+
+    //AI : 
+    static method parameter ( this Camera cam ) : dung only cho Camera (Extension method c#)
+    --Screen : Bounds(3d) , rect(2d)
+    ScreenToWorldPoint
+
+    //------Dung angularVelocity
+
+    //TEST : ContentText
+
+    //BG : Rect , Bounds , 
+
+
+    //-----------Animation , Animator---------------
+    Animator : quan ly ANIMATION , thay doi gia tri component
+    AnimationClip -> Animation -> Animator
+    UI ko sua scale
+    --Curve
+
+    setting arrow :
+    - exit time : thoi gian ton tai 
+    - transitionDuaration : trong 2d khong nen de , trong 3d thi nen de transitionDuration
+    - SetParent la null -> ra root
+
+
+    -- BEST PRATICE WITH UNITY
+
+    ---------------------------------------------------------
+    Debug : Debug lap tuc = Onvalidate() or MenuContext]
+    UI : Rectramsform hotkey : shift  , alt
+    Doi voi cac loai UI giong nhau : preset feature , de setting default component
+    Add event via script
+    Animation unscale de khong bi tac dong boi Time.deltatime
+    GameManager quan ly UIManager , SoundManager , ...
+    Khi nguoi choi chet , nen goi den GameManager thay vi UIManager
+    Animation voi 1 group Panel : Canvas Group , co day du chuc nang ben trong do
+    GameManager se goi va quan ly cac script , thay vi tai moi script Find , thi chi can truy xuat den GameManager
+
+
+   -------------------------AUDIO---------------------
+    Luu data audio tai playerprefs
+    to chuc rieng loopMusic va SFX
+    PlayOneShot de play cac audio doc lap(song song)
+    han che dung nhieu audio source (optimize)
+    Resource : Dafont , freeSound
+
+    --------------------ACTION-DELEGATE-------------------
+    Update UI bang Action -> Optimize hon de trong update
+    Co the dung de nhan biet state change
+    
+
+    --------------------SOURCE CONTROL-------------------
+    Trello
+    Source tree
+
+    ------------------------------------------------
+    Script table object 
+    Tanks unity project(source code)
+
+    --------------------DEBUG---------------------
+    GIZMOZ
+    OnDrawGizmos(Tower defense)  Gizmos.DrawWireSphere 
+    OndrawGizmosSelected      Giz.DrawCube , when selected 
+    GizMos.DrawLine
+    --------------------TUAN 5--------------------
+    DOTween animation
+    onComplete : event  , dang ky thong qua OnComplete 
+    OnComplete() -> dang ky thuc thi function nao do khi animation xong
+    Oncomplete(function) = onComplete += function 
+    animation xong -> onComplete?.Invoke()
+    OnUpdate , goi khi moi lan update
+   
+   ---------------------TUAN 6------------------------
+   tham so Action<object> => truyen vao 1 function
+   vi ban chat 1 function la 1 action

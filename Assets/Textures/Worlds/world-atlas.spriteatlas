@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: world-atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: b4649bbc715142e44bb005d2388d3322, type: 3}
+    totalSpriteSurfaceArea: 437815
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: a69660e0e622e7742848d71280b5f198, type: 3}
+  - {fileID: 21300000, guid: e319c8f0a4468e94db1ce60cbb26a164, type: 3}
+  - {fileID: 21300000, guid: 0ca688f1851923545b0820b0774b48c7, type: 3}
+  - {fileID: 21300000, guid: fbb2dfa3321939041af9f9a9ceeee4dc, type: 3}
+  - {fileID: 21300000, guid: 89409ae3a1b52cc4f888748ce68f5349, type: 3}
+  - {fileID: 21300000, guid: 46cadf449c6a8f6439ca81f15b7c497f, type: 3}
+  - {fileID: 21300000, guid: e0ae53943bd072549ba7dd2306b7211c, type: 3}
+  - {fileID: 21300000, guid: b4e944853dcde5349abdefd12d3eebd1, type: 3}
+  - {fileID: 21300000, guid: 69f8e8462b77846439be5ab70a4fef22, type: 3}
+  - {fileID: 21300000, guid: c0bf9e864bd19e14889b7504a3077dff, type: 3}
+  - {fileID: 21300000, guid: 23ad0a967ce396345bf66bb3995503bc, type: 3}
+  - {fileID: 21300000, guid: c8e0aee6cf5c5b141b4fc71e5cd11521, type: 3}
+  - {fileID: 21300000, guid: 11c98d3709e2fd34d80504e499d595fa, type: 3}
+  - {fileID: -9051737575433257997, guid: 4381d4d7b7249dc40909b916813cb5d1, type: 3}
+  - {fileID: -8035836596903530570, guid: 4381d4d7b7249dc40909b916813cb5d1, type: 3}
+  - {fileID: -4380975103825818307, guid: 4381d4d7b7249dc40909b916813cb5d1, type: 3}
+  - {fileID: 954520216407045429, guid: 4381d4d7b7249dc40909b916813cb5d1, type: 3}
+  - {fileID: 5644642134531951339, guid: 4381d4d7b7249dc40909b916813cb5d1, type: 3}
+  - {fileID: 1147463265966836608, guid: 4381d4d7b7249dc40909b916813cb5d1, type: 3}
+  - {fileID: -8691655250750990915, guid: 4381d4d7b7249dc40909b916813cb5d1, type: 3}
+  - {fileID: -1563121570284364161, guid: 4381d4d7b7249dc40909b916813cb5d1, type: 3}
+  - {fileID: 8264659834852592302, guid: 4381d4d7b7249dc40909b916813cb5d1, type: 3}
+  - {fileID: 21300000, guid: 383536da26913ce42bd574d5ffee50c3, type: 3}
+  - {fileID: 21300000, guid: 2c50f1ebabc7a3144add49f833c929be, type: 3}
+  - {fileID: -1945064191430337372, guid: fd7ecfcffba6527478b9ffe7641f1793, type: 3}
+  - {fileID: 5733736984135813119, guid: fd7ecfcffba6527478b9ffe7641f1793, type: 3}
+  - {fileID: 551556315303237845, guid: fd7ecfcffba6527478b9ffe7641f1793, type: 3}
+  - {fileID: 8206376455744926899, guid: fd7ecfcffba6527478b9ffe7641f1793, type: 3}
+  - {fileID: -8218169581622849909, guid: fd7ecfcffba6527478b9ffe7641f1793, type: 3}
+  - {fileID: 5237514212407273735, guid: fd7ecfcffba6527478b9ffe7641f1793, type: 3}
+  - {fileID: -4474736531878823956, guid: fd7ecfcffba6527478b9ffe7641f1793, type: 3}
+  - {fileID: 8643904881997150980, guid: fd7ecfcffba6527478b9ffe7641f1793, type: 3}
+  - {fileID: -7746254279273670513, guid: fd7ecfcffba6527478b9ffe7641f1793, type: 3}
+  - {fileID: -6461529819497655417, guid: fd7ecfcffba6527478b9ffe7641f1793, type: 3}
+  - {fileID: -4822930892882410200, guid: fd7ecfcffba6527478b9ffe7641f1793, type: 3}
+  - {fileID: -3046463244984397160, guid: fd7ecfcffba6527478b9ffe7641f1793, type: 3}
+  - {fileID: -763069217748005581, guid: fd7ecfcffba6527478b9ffe7641f1793, type: 3}
+  - {fileID: 6137533871343554704, guid: fd7ecfcffba6527478b9ffe7641f1793, type: 3}
+  - {fileID: 5874229418070973194, guid: fd7ecfcffba6527478b9ffe7641f1793, type: 3}
+  - {fileID: -4320269195672807631, guid: fd7ecfcffba6527478b9ffe7641f1793, type: 3}
+  - {fileID: 21300000, guid: d02670efd475d8b4782086de95e0ba93, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - u_indicator
+  - u_enemy1
+  - u_magnet
+  - u_copcar-light
+  - u_Sheet1_180
+  - u_colourful
+  - u_yellow
+  - u_enemy3
+  - u_enemy2
+  - u_white_sport
+  - u_silver
+  - u_coin
+  - u_red
+  - Particle-XP-Coins_2
+  - Particle-XP-Coins_3
+  - Particle-XP-Coins_0
+  - Particle-XP-Coins_1
+  - Particle-XP-Coins_6
+  - Particle-XP-Coins_7
+  - Particle-XP-Coins_4
+  - Particle-XP-Coins_5
+  - Particle-XP-Coins_8
+  - u_Particle-Vehicle-Dracmobile-Clouds
+  - u_soft
+  - u_Particle-Gameplay-ExplosionFlash12_15
+  - u_Particle-Gameplay-ExplosionFlash12_14
+  - u_Particle-Gameplay-ExplosionFlash12_11
+  - u_Particle-Gameplay-ExplosionFlash12_10
+  - u_Particle-Gameplay-ExplosionFlash12_13
+  - u_Particle-Gameplay-ExplosionFlash12_12
+  - u_Particle-Gameplay-ExplosionFlash12_8
+  - u_Particle-Gameplay-ExplosionFlash12_9
+  - u_Particle-Gameplay-ExplosionFlash12_6
+  - u_Particle-Gameplay-ExplosionFlash12_7
+  - u_Particle-Gameplay-ExplosionFlash12_4
+  - u_Particle-Gameplay-ExplosionFlash12_5
+  - u_Particle-Gameplay-ExplosionFlash12_2
+  - u_Particle-Gameplay-ExplosionFlash12_3
+  - u_Particle-Gameplay-ExplosionFlash12_0
+  - u_Particle-Gameplay-ExplosionFlash12_1
+  - u_green
+  m_Tag: world-atlas
+  m_IsVariant: 0
